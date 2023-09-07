@@ -31,7 +31,7 @@ describe("Screen: Dashboard", () => {
 
     const cityName = await waitFor(() => screen.findByText(/Manaus/i));
 
-    expect(cityName).toBeTruthy();
+    expect(cityName).toBeTruthy()
   });
 
   it("should be show another selected weather city", async () => {
