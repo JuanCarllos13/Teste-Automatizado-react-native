@@ -7,13 +7,16 @@
       "android": {
         "distribution": "internal"
       },
+      "ios": {
+        "simulator": true
+      },
       "env": {
-        "EXPO_PUBLIC_WEATHER_APP_ID": "2e8e465cef2ce3f3c32e5036e9709526"
+        "EXPO_PUBLIC_TESTE_APP_ID": "2e8e465cef2ce3f3c32e5036e9709526"
       }
     },
     "production": {
       "env": {
-        "EXPO_PUBLIC_WEATHER_APP_ID": "2e8e465cef2ce3f3c32e5036e9709526"
+        "EXPO_PUBLIC_TESTE_APP_ID": "2e8e465cef2ce3f3c32e5036e9709526"
       }
     }
   }
